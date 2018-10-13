@@ -1,15 +1,85 @@
-# Intro
+# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
-My personal blog, built with Jekyll and Github page.
+[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
+[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
+[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
 
-# If you want to use this theme
+![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
-1. fork it
-2. **Important**: If you want to use [Baidu Statistics][baiduTongji] functionality, remember to replace the content of `/javascripts/baidu_statistics.js` with your own. If you don't want to use it or don't understand what I'm talking about, just comment out line 43 of `/_includes/footer.html`. 
-3. **Important**: If you want to use the [Disqus][disqus] (comment system) functionality, remember to replace the content of `/_includes/disqus_load.html` and `/_includes/disqus_count.html` with your own content. If you don't want to use it or don't understand what I'm talking about, just comment out line 27 in `/_layouts/markdownreader_bare.html` and line 35 in `/_layouts/post.html`.
-4. Modify `/_config.yml` with your own info, replace `/images/me.png` with your own.
+![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
 
-That's it
+TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
-[baiduTongji]: http://tongji.baidu.com/web/welcome/login
-[disqus]: https://disqus.com/
+[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md) | [中文文档](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)
+
+## Features
+
+- Responsive
+- Skins
+- Highlight Theme
+- Table of contents
+- Authors
+- Multi-language support
+- Search
+- Semantic HTML
+- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed))
+- Contact information (Email, Facebook, Twitter, Linkedin, Weibo, Zhihu, etc)
+- Mathematical formula ([MathJax](https://www.mathjax.org/))
+- Flowchart, Sequence diagram, Gantt diagram ([mermaid](https://mermaidjs.github.io/))
+- Line Chart, Bar Chart, Radar Chart, Pie Chart ([chartjs](http://www.chartjs.org/))
+- Page views ([LeanCloud](https://leancloud.cn/))
+- Comments ([Disqus](https://disqus.com/))
+- Google Analytics
+
+## Skins
+
+TeXt has 6 built-in skins, you can also set up your own skin.
+
+| `default` | `dark` | `forest` |
+| --- |  --- | --- |
+| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+
+| `ocean` | `chocolate` | `orange` |
+| --- |  --- | --- |
+| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+
+### Highlight Theme
+
+TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+
+| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
+| --- |  --- | --- | --- |  --- |
+| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+
+## Documentation
+
+### Start
+
+- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
+- [Update form 1.x to 2.x](https://tianqi.name/jekyll-TeXt-theme/docs/en/update-form-1-to-2)
+
+### Customization
+
+- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
+- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
+- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
+- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
+- [Authors](https://tianqi.name/jekyll-TeXt-theme/docs/en/authors)
+
+### Content
+
+- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
+- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
+- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
+
+## Demo Pages
+
+| Name | Description |
+| --- | --- |
+| [Home](https://tianqi.name/jekyll-TeXt-theme/test/) | Home page |
+| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | Archive page |
+| [Layout Examples](https://tianqi.name/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
+
+## License
+
+TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
