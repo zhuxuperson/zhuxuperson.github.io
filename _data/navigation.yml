@@ -1,4 +1,9 @@
 header:
+  - title:
+      en: home
+      zh: 主页
+      zh-Hans:主页
+      url:      /index
   - titles:
       en:       Archive
       zh:       归档
